@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime Chat App</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="socket.io.js"></script>
+</head>
+
+<body onload="getdata()">
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="talk_female_1_64px.png" alt="">
+            <h1 id="welcomeUser"></h1>
+        </div>
+        <div class="message__area">
+            <div class="incoming message" id="out">
+
+            </div>
+            <div class="outgoing message"  id="posts">
+
+            </div>
+
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+            <input type="button" name="Send" value="Send" onclick="send()" class="stle">
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
