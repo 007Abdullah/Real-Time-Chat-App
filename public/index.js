@@ -1,6 +1,6 @@
 
-// const url = 'https://realtimetweeter.herokuapp.com';
-const url = "http://localhost:5000";
+const url = 'https://git.heroku.com/chatss-apps.git';
+// const url = "http://localhost:5000";
 var userPost = document.getElementById("userPost");
 
 let currentUser;
